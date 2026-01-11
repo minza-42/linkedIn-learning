@@ -103,20 +103,6 @@ h1 {
   left: 5%;
 }
 
-/* Animation */
-@keyframes slide-in {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transdorm: translateX(0%);
-  }
-}
-
-.plant {
-  animation: slide-in 2s ease-in;
-}
-
 .plant {
   transition: width 2s, height 2s, background-color 1s;
 }
