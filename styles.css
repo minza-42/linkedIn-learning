@@ -5,6 +5,7 @@ body {
 h1 {
   color: #3a241d;
   text-align: center;
+  font-size: 4rem;
 }
 
 #left-container {
@@ -118,8 +119,4 @@ h1 {
 
 .plant {
   transition: width 2s, height 2s, background-color 1s;
-}
-.plant:hover {
-  width: 200%;
-  height: 200%;
 }
